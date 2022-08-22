@@ -111,7 +111,7 @@ The following statements refer to the `VOTING Basis` application.
 The self-registration website to create test users is not a productive component of the system. It is only a helping system for you in order that you can log in the application. This component is out of scope.
 
 ### Account Access
-No user accounts are required for the pentests. However, test users can be ordered from Abraxas for a more substantial result. To do so, register yourself on the [Bug Bounty Plattform](https://www.bugbounty.ch/abraxas-public-trust-programm/) and follow the instructions described there.
+No user accounts are required for the pentests. However, test users can be ordered from Abraxas for a more substantial result. To do so, register yourself on the [Bug Bounty Platform](https://www.bugbounty.ch/abraxas/) and follow the instructions described there.
 
 Afterwards, the following users and roles will be made available to you:
 
