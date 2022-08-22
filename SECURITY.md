@@ -178,12 +178,12 @@ The Abraxas Bug Bounty Grid defines in which framework and methodology bounties 
 
 Additionally, there are specific scenarios for which Abraxas is prepared to offer special bounties. These bounties apply to all scopes and will be paid instead of the above CVSS based bounties (and not additional to them), if applicable.
 
-|Scenario|Examples|Bounty Range|
-|---|---|---|
-|Tampering of the system so that election results can be changed without the possibility of detection on the part of the service provider.| - Tampering of counting results<br />- Tampering of used algorithms| CHF 15'000 - CHF 30'000|
-|Detection of errors in the calculation basis of the vote count/result determination, which could lead to an incorrect election result| - Detection of logic errors, that results could not be considered<br />- Incorrect application of given calculation algorithms (e.g. Hagenbach-Bischoff method)| CHF 15'000 - CHF 30'000|
-|Tampering in the generation & transmission of the election results in the system VOTING Ausmittlung to the publication systems of the cantons, so that results can be changed, without detection possibility on the part of the service provider| - Tampering during transmission to the publication systems <br /> - Tampering at the output document, which is transmitted| CHF 10'000 - CHF 25'000|
-|The system can be tampered with in such a way that it is highly unlikely that the results will be delivered on time on election Sunday (excl. DoS/DDoS attacks)|-	Encryption of the required user data in the system <br /> - Corruption of data in the central storage system <br /> - Destruction of entire database systems (clusters) that a complete disaster recovery process must be initiated including control of the current data inventory.| CHF 10'000 - CHF 15'000|
+|No.|Scenario|Examples|Bounty Range|
+|---|---|---|---|
+|1|Tampering of the system so that election results can be changed without the possibility of detection on the part of the service provider.| - Tampering of counting results<br />- Tampering of used algorithms| CHF 15'000 - CHF 30'000|
+|2|Detection of errors in the calculation basis of the vote count/result determination, which could lead to an incorrect election result| - Detection of logic errors, that results could not be considered<br />- Incorrect application of given calculation algorithms (e.g. Hagenbach-Bischoff method)| CHF 15'000 - CHF 30'000|
+|3|Tampering in the generation & transmission of the election results in the system VOTING Ausmittlung to the publication systems of the cantons, so that results can be changed, without detection possibility on the part of the service provider| - Tampering during transmission to the publication systems <br /> - Tampering at the output document, which is transmitted| CHF 10'000 - CHF 25'000|
+|4|The system can be tampered with in such a way that it is highly unlikely that the results will be delivered on time on election Sunday (excl. DoS/DDoS attacks)|-	Encryption of the required user data in the system <br /> - Corruption of data in the central storage system <br /> - Destruction of entire database systems (clusters) that a complete disaster recovery process must be initiated including control of the current data inventory.| CHF 10'000 - CHF 15'000|
 
 Rewards are distributed at the discretion of Abraxas.
 
