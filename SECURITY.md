@@ -5,7 +5,7 @@ The projects published in Github based on `VOTING Ausmittlung` are made availabl
 ## Code of Conduct
 
 This project uses the [Code of Conduct](./CODE_OF_CONDUCT.md) to define expected conduct in our community.
- 
+
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting a project maintainer at psirt-ergebnisermittlungssystem@abraxas.ch
 
 ## Bug Bounty Policy
@@ -15,6 +15,7 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be repor
 The Bug Bounty Program is part of the Program as defined in the [Code of Conduct](./CODE_OF_CONDUCT.md) available on GitHub.
 This Bug Bounty Policy (also called Security Policy) complements the [Code of Conduct](./CODE_OF_CONDUCT.md) with Bug Bounty specific rules and regulations.
 The System subject to the Program including this Bug Bounty Program has the Abraxas product name `VOTING Ausmittlung`. The product `VOTING Ausmittlung` and its infrastructure include for example:
+
 - `VOTING Ausmittlung` (Backend)
 - `VOTING Ausmittlung Erfassung` (Frontend)
 - `VOTING Ausmittlung Monitoring` (Frontend)
@@ -24,9 +25,11 @@ The System subject to the Program including this Bug Bounty Program has the Abra
 We will from time to time as considered necessary issue an updated version of this Bug Bounty Policy.
 
 ### Program Rules
+
 The rules and regulations established in the [Code of Conduct](./CODE_OF_CONDUCT.md) and this Bug Bounty Policy are binding for this Bug Bounty Program.
 
 #### Legal Safe Harbor
+
 Abraxas values a constructive and fair collaboration with the participants of the Program. Abraxas will not take legal actions against participants in this Bug Bounty Program, as long as participants act in good faith and in accordance with the licence agreement, this Bug Bounty Policy, the provisions of the [Code of Conduct](./CODE_OF_CONDUCT.md) and the applicable laws. Under these conditions:
 
 - We interpret activities by participants within this Program as authorized access under the Swiss Penal Code. This includes Swiss Penal Code paragraphs 143, 143bis and 144bis.
@@ -41,7 +44,7 @@ All activities leading to the discovery of a vulnerability:
 
 - are within the scope permitted by law (see section Legal Safe Harbor);
 - are within the Program;
-- may result in a bounty to be paid to you. The amount of compensation is based on the criticality of the vulnerability and the quality of the documentation submitted to Abraxas; 
+- may result in a bounty to be paid to you. The amount of compensation is based on the criticality of the vulnerability and the quality of the documentation submitted to Abraxas;
 - shall not destroy, interrupt or lower the Services and Products used by Abraxas (and its customers and partners);
 - shall respect the intellectual property rights and other rights of Abraxas, its customers and third-parties;
 - shall not result in third-party data to be spied on or disclosed.
@@ -62,43 +65,45 @@ All activities leading to the discovery of a vulnerability:
 Vulnerability disclosure is possible since the start of the public phase of the Program, respecting the “Responsible Vulnerability Disclosure” section in the [Code of Conduct](./CODE_OF_CONDUCT.md) and after obtaining written permission issued by Abraxas. Abraxas will communicate transparently about results and will credit researchers publicly, if agreed.
 
 #### Reporting Requirements
+
 Please ensure to report only findings with a real impact on security of the product `VOTING Ausmittlung` and report clear proof of concepts that demonstrate the scenario or (nothing without impact and nothing purely theoretical).
 Please make sure to complete your report with the following details:
 
 - Attack scenario including impact on the product `VOTING Ausmittlung` in form of a step-by-step procedure to reproduce the issue, include attachments such as screenshots or proof of concept code as necessary
 - The report must contain a timestamp (in UTC or including the time zone) and the source IP of the attack, so we’re able to locate your requests in the log files.
 - References to the documentation and the source code if applicable:
-    - implicated protocols/algorithms
-    - implicated pages/paragraphs
-    - implicated line(s) of code (when relevant)
-    - any other information that might help us identify the vulnerable parts
+  - implicated protocols/algorithms
+  - implicated pages/paragraphs
+  - implicated line(s) of code (when relevant)
+  - any other information that might help us identify the vulnerable parts
 - External references:
-    - Academic references on the matter
-    - Technical studies on the matter
-    - Conference papers
-    - Any other information that might help us understand the vulnerability
+  - Academic references on the matter
+  - Technical studies on the matter
+  - Conference papers
+  - Any other information that might help us understand the vulnerability
 
 ### Scope
 
 |System|URL|Description|
 |---|---|---|
-|VOTING Basis|https://bbt.vo.abraxas-apps.ch/basis/*|UI|
-|VOTING Ausmittlung Erfassung|https://bbt.vo.abraxas-apps.ch/ausmittlung/erfassung/*|UI|
-|VOTING Ausmittlung Monitoring|https://bbt.vo.abraxas-apps.ch/ausmittlung/monitoring/*|UI|
-|API|https://bbt.vo.abraxas-apis.ch/*|VOTING Services API|
-|VOTING IAM IdP|https://pre.abraxas-vo.sec.abraxas-apps.ch/authorize|UI|
-|VOTING IAM self services|https://pre.abraxas-vo.sec.abraxas-apps.ch/myaccount|UI|
-|VOTING IAM API|https://pre.abraxas-vo.sec.abraxas-apis.ch/| IAM Services API|
+|VOTING Basis|<https://bbt.vo.abraxas-apps.ch/basis/*>|UI|
+|VOTING Ausmittlung Erfassung|<https://bbt.vo.abraxas-apps.ch/ausmittlung/erfassung/*>|UI|
+|VOTING Ausmittlung Monitoring|<https://bbt.vo.abraxas-apps.ch/ausmittlung/monitoring/*>|UI|
+|API|<https://bbt.vo.abraxas-apis.ch/*>|VOTING Services API|
+|VOTING IAM IdP|<https://pre.abraxas-vo.sec.abraxas-apps.ch/authorize>|UI|
+|VOTING IAM self services|<https://pre.abraxas-vo.sec.abraxas-apps.ch/myaccount>|UI|
+|VOTING IAM API|<https://pre.abraxas-vo.sec.abraxas-apis.ch/>| IAM Services API|
 
 Should you identify an interesting but out-of-scope target you can attribute to `VOTING Ausmittlung`, please report it and ask for permission to test it.
 
-Vulnerabilities on the IdP system `VOTING IAM` are in scope if they affect the integration with the product `VOTING Ausmittlung` (e.g. vulnerabilities in the exchange of tokens, on the authentication flow, self services of the user). 
+Vulnerabilities on the IdP system `VOTING IAM` are in scope if they affect the integration with the product `VOTING Ausmittlung` (e.g. vulnerabilities in the exchange of tokens, on the authentication flow, self services of the user).
 
 The source code of `VOTING IAM` is not covered by the source code publication.
 
 The source code included in the public Bug Bounty Program can be used for identification of exploitable/demonstrable vulnerabilities.
 
 ### Out-of-Scope and general information
+
 `VOTING IAM` administrator use cases such as identity (lifecycle) management is not in-scope. The available accounts (see below) do not have according permissions for administration use cases.
 
 The following statements refer to the `VOTING Basis` application.
@@ -106,11 +111,12 @@ The following statements refer to the `VOTING Basis` application.
 - Master data must not be changed. These can be found in the navigation `Auszählungskreise` (Counting Circles) and `Wahlkreise` (Domain of influence).
 - No contests, votes or elections may be deleted.
 - New contests, votes and elections may be created, but not in the pre-defined contests.
-- Test data will be reset every Wednesday morning 11 to 12 am (CEST). Initially just once a week to allow more time to manage the test data. The rhythm will eventually be adjusted. If necessary, we reserve the right of resetting the test data in between 
+- Test data will be reset every Wednesday morning 11 to 12 am (CEST). Initially just once a week to allow more time to manage the test data. The rhythm will eventually be adjusted. If necessary, we reserve the right of resetting the test data in between.
 
 The self-registration website to create test users is not a productive component of the system. It is only a helping system for you in order that you can log in the application. This component is out of scope.
 
 ### Account Access
+
 No user accounts are required for the pentests. However, test users can be ordered from Abraxas for a more substantial result. To do so, register yourself on the [Bug Bounty Platform](https://www.bugbounty.ch/abraxas/) and follow the instructions described there.
 
 Afterwards, the following users and roles will be made available to you:
@@ -122,6 +128,7 @@ Afterwards, the following users and roles will be made available to you:
 | Erfasser<br />(editor, in our setup authorized for the municipality) | Gemeinde XY<br />(municipality XY) | VOTING Ausmittlung Erfassung<br /><br />VOTING IAM | Erfasser<br />(editor) |
 
 ### Qualifying Vulnerabilities
+
 Everything with a real impact on security of `VOTING Ausmittlung` – e.g.:
 
 - Remote code execution (RCE)
@@ -163,6 +170,8 @@ Everything with a real impact on security of `VOTING Ausmittlung` – e.g.:
 - Reports from automated web vulnerability scanners that have not been validated by hand
 - Recently disclosed 0-day vulnerabilities
 - Any hypothetical flaw or best practices without exploitable POC
+- Bypassing rate-limits or the non-existence of rate-limits
+- Username / email enumeration
 
 ### Reward Grid
 

@@ -1,24 +1,31 @@
 # Documentation Repository of VOTING Ausmittlung
+
 This repository includes all superordinate documentation for `VOTING Ausmittlung` (e.g. architecture documentation, finding list, security policies, etc.)
 
 ## Index
 
 ### Code of Conduct
+
 This project uses the [Code of Conduct](./CODE_OF_CONDUCT.md) to define expected conduct in our community for VOTING Ausmittlung.
 
 ### Security / Bug Bounty Policy
-The [Bug Bounty Policy](./SECURITY.md) (also called Security Policy) complements the Code of Conduct with Bug Bounty specific rules and regulations. 
+
+The [Bug Bounty Policy](./SECURITY.md) (also called Security Policy) complements the Code of Conduct with Bug Bounty specific rules and regulations.
 
 ### License
+
 See the [licence-file](./LICENCE) for how the software ist provided by the copyright holders and contributors.
 
 ### Exclusion List
+
 The [exclusion list](./Exclusions.pdf) publishes all security relevant topics we already know and which are still in the product backlog of our product.
 
 ### Quality Reports
+
 See under [quality reports](./technical-documentations/quality-reports).
 
 ### Technical Documentations
+
 In this subfolder you can find all the [technical documentations](./technical-documentations) such as the building block view.
 
 |Title|Short Description|Link|
