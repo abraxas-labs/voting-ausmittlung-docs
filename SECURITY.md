@@ -6,7 +6,7 @@ The projects published in Github based on `VOTING Ausmittlung` are made availabl
 
 This project uses the [Code of Conduct](./CODE_OF_CONDUCT.md) to define expected conduct in our community.
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting a project maintainer at psirt-ergebnisermittlungssystem@abraxas.ch
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting a project maintainer at psirt-voting@abraxas.ch
 
 ## Bug Bounty Policy
 
@@ -62,7 +62,7 @@ All activities leading to the discovery of a vulnerability:
 
 #### Responsible Vulnerability Disclosure
 
-Vulnerability disclosure is possible since the start of the public phase of the Program, respecting the “Responsible Vulnerability Disclosure” section in the [Code of Conduct](./CODE_OF_CONDUCT.md) and after obtaining written permission issued by Abraxas. Abraxas will communicate transparently about results and will credit researchers publicly, if agreed.
+Vulnerability disclosure is possible since the start of the public phase of the Program, respecting the “Responsible Vulnerability Disclosure” section in the [Code of Conduct](./CODE_OF_CONDUCT.md). Abraxas will communicate transparently about results and will credit researchers publicly, if agreed.
 
 #### Reporting Requirements
 
