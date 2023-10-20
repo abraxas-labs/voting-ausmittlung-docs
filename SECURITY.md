@@ -30,7 +30,7 @@ The rules and regulations established in the [Code of Conduct](./CODE_OF_CONDUCT
 
 #### Legal Safe Harbor
 
-Abraxas values a constructive and fair collaboration with the participants of the Program. Abraxas will not take legal actions against participants in this Bug Bounty Program, as long as participants act in good faith and in accordance with the licence agreement, this Bug Bounty Policy, the provisions of the [Code of Conduct](./CODE_OF_CONDUCT.md) and the applicable laws. Under these conditions:
+Abraxas values a constructive and fair collaboration with the participants of the Program. Abraxas will not take legal actions against participants in this Bug Bounty Program, as long as participants act in good faith and in accordance with the [licence agreement](./CODE_OF_CONDUCT.md#license-source-code-permitted-use), this Bug Bounty Policy, the provisions of the [Code of Conduct](./CODE_OF_CONDUCT.md) and the applicable laws. Under these conditions:
 
 - We interpret activities by participants within this Program as authorized access under the Swiss Penal Code. This includes Swiss Penal Code paragraphs 143, 143bis and 144bis.
 - We will not file a complaint against participants within this Program for trying to circumvent the security measures deployed in order to protect the services in-scope for this Program.
@@ -52,13 +52,13 @@ All activities leading to the discovery of a vulnerability:
 #### Eligibility Bug Bounty Program
 
 - This is a public Program – everyone can participate
-- We reserve the right to terminate the Program at any moment and not accept nor award any new vulnerability reports. This termination will be announced by Abraxas suitable means.
-- You must avoid tests that could cause degradation or interruption of our service (refrain from using automated tools and limit yourself about requests per second).
+- We reserve the right to terminate the Program at any moment and not accept nor award any new vulnerability reports. This termination will be announced by Abraxas suitable means
+- You must avoid tests that could cause degradation or interruption of our service (refrain from using automated tools and limit yourself about requests per second)
 - You must not leak, manipulate, or destroy any user data
 - Only test with user accounts that are under your control
-- You must not be a former or current employee of Abraxas, the Cantons of Thurgau or St. Gallen, Bug Bounty Switzerland or one of its contractors
+- You must not be a former or current employee of Abraxas, the Cantons of Thurgau, St. Gallen, Bug Bounty Switzerland, one of its contractors or project participants within the last six months
 - Strictly follow a “report first” approach (in contrast to “exploit first”). All activities that are not absolutely necessary to identify a vulnerability should be omitted and permission asked to further exploit
-- Any vulnerability must be reported exclusively through the defined channel which is the platform of Bug Bounty Switzerland
+- Any vulnerability must be reported exclusively through the channel specified in the [Submission Guidelines (CoC)](./CODE_OF_CONDUCT.md#submission-guidelines)
 
 #### Responsible Vulnerability Disclosure
 
@@ -66,21 +66,9 @@ Vulnerability disclosure is possible since the start of the public phase of the 
 
 #### Reporting Requirements
 
-Please ensure to report only findings with a real impact on security of the product `VOTING Ausmittlung` and report clear proof of concepts that demonstrate the scenario or (nothing without impact and nothing purely theoretical).
-Please make sure to complete your report with the following details:
+Please ensure to report only findings with a real impact on security of the product `VOTING Ausmittlung` and report clear proof of concepts that demonstrate the scenario.
 
-- Attack scenario including impact on the product `VOTING Ausmittlung` in form of a step-by-step procedure to reproduce the issue, include attachments such as screenshots or proof of concept code as necessary
-- The report must contain a timestamp (in UTC or including the time zone) and the source IP of the attack, so we’re able to locate your requests in the log files.
-- References to the documentation and the source code if applicable:
-  - implicated protocols/algorithms
-  - implicated pages/paragraphs
-  - implicated line(s) of code (when relevant)
-  - any other information that might help us identify the vulnerable parts
-- External references:
-  - Academic references on the matter
-  - Technical studies on the matter
-  - Conference papers
-  - Any other information that might help us understand the vulnerability
+Please make sure to complete your report in accordance with the guidelines set forth in the [Submission Guidelines (CoC)](./CODE_OF_CONDUCT.md#submission-guidelines).
 
 ### Scope
 
@@ -117,7 +105,7 @@ The self-registration website to create test users is not a productive component
 
 ### Account Access
 
-No user accounts are required for the pentests. However, test users can be ordered from Abraxas for a more substantial result. To do so, register yourself on the [Bug Bounty Platform](https://www.bugbounty.ch/abraxas/) and follow the instructions described there.
+No user accounts are required for the pentests. However, test users can be generated by the "self-registration form" for a more substantial result. To do so, register yourself on the [Bug Bounty Platform](https://www.bugbounty.ch/abraxas/) and follow the instructions described there.
 
 Afterwards, the following users and roles will be made available to you:
 
