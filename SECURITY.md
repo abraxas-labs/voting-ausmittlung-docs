@@ -56,7 +56,7 @@ All activities leading to the discovery of a vulnerability:
 - You must avoid tests that could cause degradation or interruption of our service (refrain from using automated tools and limit yourself about requests per second)
 - You must not leak, manipulate, or destroy any user data
 - Only test with user accounts that are under your control
-- You must not be a former or current employee of Abraxas, the Cantons of Thurgau, St. Gallen, Bug Bounty Switzerland, one of its contractors or project participants within the last six months
+- You must not be a former or current employee of Abraxas, the directly involved customers of the system, Bug Bounty Switzerland, one of its contractors or project participants within the last six months
 - Strictly follow a “report first” approach (in contrast to “exploit first”). All activities that are not absolutely necessary to identify a vulnerability should be omitted and permission asked to further exploit
 - Any vulnerability must be reported exclusively through the channel specified in the [Submission Guidelines (CoC)](./CODE_OF_CONDUCT.md#submission-guidelines)
 
