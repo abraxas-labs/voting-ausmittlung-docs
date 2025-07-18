@@ -45,20 +45,20 @@ All activities leading to the discovery of a vulnerability:
 - are within the scope permitted by law (see section Legal Safe Harbor);
 - are within the Program;
 - may result in a bounty to be paid to you. The amount of compensation is based on the criticality of the vulnerability and the quality of the documentation submitted to Abraxas;
-- shall not destroy, interrupt or lower the Services and Products used by Abraxas (and its customers and partners);
+- shall not destroy, interrupt or lower the services and products used by Abraxas (and its customers and partners);
 - shall respect the intellectual property rights and other rights of Abraxas, its customers and third-parties;
 - shall not result in third-party data to be spied on or disclosed.
 
 #### Eligibility Bug Bounty Program
 
-- This is a public Program – everyone can participate
-- We reserve the right to terminate the Program at any moment and not accept nor award any new vulnerability reports. This termination will be announced by Abraxas suitable means
-- You must avoid tests that could cause degradation or interruption of our service (refrain from using automated tools and limit yourself about requests per second)
-- You must not leak, manipulate, or destroy any user data
-- Only test with user accounts that are under your control
-- You must not be a former or current employee of Abraxas, the directly involved customers of the system, Bug Bounty Switzerland, one of its contractors or project participants within the last six months
-- Strictly follow a “report first” approach (in contrast to “exploit first”). All activities that are not absolutely necessary to identify a vulnerability should be omitted and permission asked to further exploit
-- Any vulnerability must be reported exclusively through the channel specified in the [Submission Guidelines (CoC)](./CODE_OF_CONDUCT.md#submission-guidelines)
+- This is a public Program – everyone can participate.
+- We reserve the right to terminate the Program at any moment and not accept nor award any new vulnerability reports. This termination will be announced by Abraxas suitable means.
+- You must avoid tests that could cause degradation or interruption of our service (refrain from using automated tools and limit yourself about requests per second).
+- You must not leak, manipulate, or destroy any user data.
+- Only test with user accounts that are under your control.
+- You must not be a former or current employee of Abraxas, the directly involved customers of the system, Bug Bounty Switzerland, one of its contractors or project participants within the last six months.
+- Strictly follow a “report first” approach (in contrast to “exploit first”). All activities that are not absolutely necessary to identify a vulnerability should be omitted and permission asked to further exploit.
+- Any vulnerability must be reported exclusively through the channel specified in the [Submission Guidelines (CoC)](./CODE_OF_CONDUCT.md#submission-guidelines).
 
 #### Responsible Vulnerability Disclosure
 
@@ -92,7 +92,7 @@ The source code included in the public Bug Bounty Program can be used for identi
 
 ### Out-of-Scope and general information
 
-`VOTING IAM` administrator use cases such as identity (lifecycle) management is not in-scope. The available accounts (see below) do not have according permissions for administration use cases.
+`VOTING IAM` administrator use cases such as identity (lifecycle) management are not in-scope. The available accounts (see below) do not have according permissions for administration use cases.
 
 The following statements refer to the `VOTING Basis` application.
 
@@ -129,7 +129,7 @@ Everything with a real impact on security of `VOTING Ausmittlung` – e.g.:
 - Insecure direct object references (IDOR)
 - CORS with real security impact
 - Broken access control: Horizontal and vertical privilege escalation
-- Source code findings with a measurable and provable impact on the System and its users
+- Source code findings with a measurable and provable impact on the system and its users
 
 ### Non-Qualifying Vulnerabilities
 
@@ -139,7 +139,7 @@ Everything with a real impact on security of `VOTING Ausmittlung` – e.g.:
 - Issues that require physical access to a victim’s computer/device
 - For source code findings: Code smell or missing best practices
 - For system or infrastructure: Missing best practices or other guidelines which do not indicate a security issue.
-- Testing for weak credentials of prepared test users in the System
+- Testing for weak credentials of prepared test users in the system
 - Known issues listed on [Exclusions](./Exclusions.pdf)
 - "Self" XSS
 - Missing cookie flags on non-sensitive cookies
@@ -153,10 +153,10 @@ Everything with a real impact on security of `VOTING Ausmittlung` – e.g.:
 - SSL/TLS best practices
 - Mixed content warnings
 - Logout and other instances of low-severity Cross-Site Request Forgery
-- Vulnerabilities related to E-Mail Server Configuration
+- Vulnerabilities related to E-Mail server configuration
 - Vulnerabilities affecting outdated browsers or platforms
 - Reports from automated web vulnerability scanners that have not been validated by hand
-- Recently disclosed 0-day vulnerabilities
+- 0-day vulnerabilities in third-party components not maintained or controlled by Abraxas, including those for which a patch has only recently become available
 - Any hypothetical flaw or best practices without exploitable POC
 - Bypassing rate-limits or the non-existence of rate-limits
 - Username / email enumeration
@@ -186,7 +186,7 @@ Rewards are distributed at the discretion of Abraxas.
 
 #### Eligibility Bounties
 
-- You must be the first reporter of a vulnerability to be eligible for a bounty
-- The vulnerability must be a qualifying vulnerability or enter in one of the categories of the specific scenarios to be eligible for a bounty
+- You must be the first reporter of a vulnerability to be eligible for a bounty.
+- The vulnerability must be a qualifying vulnerability or enter in one of the categories of the specific scenarios to be eligible for a bounty.
 - In case of exploits on different endpoints, parameters or components caused by the same underlying weakness, we reserve the right to honor only the first report and reject the subsequent ones as 'Duplicate' or 'Informative' depending on the case.
 - Claims related to the reporting of a vulnerability before, after or without actually reporting a vulnerability are not considered by Abraxas.

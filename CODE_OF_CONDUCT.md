@@ -4,7 +4,7 @@
 
 The cantons in Switzerland are responsible for conducting ballots on the federal and cantonal (state) level and for tallying the votes. They use electronic systems for managing the ballots (ballot administration, configuration, and communication between the canton and the municipalities) and for aggregating the results tallied in the municipalities.
 
-The cantons St. Gallen and Thurgau commissioned Abraxas Informatik AG (`Abraxas`) to develop a new software (`Ergebnisermittlungssystem` with the product name `VOTING Ausmittlung` hereafter `system`). The product is now also used by other cantons, such as the canton of Zurich. This software shall be subject to public scrutiny prior to its release: Abraxas publishs a pre version (release candidate) of the system containing information about the software and the infrastructure, its source code and the corresponding documentation, and conducts a Bug Bounty Program. Those measures combined are referred to as "**The Program**" hereafter.
+The cantons St. Gallen and Thurgau commissioned Abraxas Informatik AG (`Abraxas`) to develop a new software (`Ergebnisermittlungssystem` with the product name `VOTING Ausmittlung` hereafter `system`). The product is now also used by other cantons, such as the canton of Zurich. This software shall be subject to public scrutiny prior to its release: Abraxas publishs a pre version (release candidate) of the system containing information about the software and the infrastructure, its source code and the corresponding documentation, and conducts a Bug Bounty Program. Those measures combined are referred to as "**the Program**" hereafter.
 
 The goal of the Program is to find and fix security issues and to improve the quality of the system. The cantons and Abraxas firmly believe that openness and public scrutiny will lead to a trustworthy system of high quality.
 
@@ -50,7 +50,7 @@ Abraxas runs the Bug Bounty Program with support from Bug Bounty Switzerland AG.
 
 - Participants respect the privacy and property of others and avoid destroying data or disrupting systems.
 - Participants report their findings to Abraxas through one of the offered channels.
-- Participants read the Code of Conduct and adhere to it, including responsible disclosure
+- Participants read the Code of Conduct and adhere to it, including responsible disclosure.
 
 ## Participation Rules
 
@@ -75,7 +75,7 @@ In scope for the Bug Bounty Program is a dedicated non-productive instance of th
 
 Please note that in a normal, productive setting `VOTING Ausmittlung` is not exposed to the Internet.
 
-For more information about the technical details of the scope, how to access the system and the [Bug Bounty Policy](./SECURITY.md#bug-bounty-policy) please refer to the [Abraxas Bug Bounty Program Page](https://www.bugbounty.ch/abraxas-public-trust-programm/) or [GitHub](https://github.com/abraxas-labs/).
+For more information about the technical details of the scope, how to access the system and the [Bug Bounty Policy](./SECURITY.md#bug-bounty-policy), please refer to the [Abraxas Bug Bounty Program Page](https://www.bugbounty.ch/abraxas-public-trust-programm/) or [GitHub](https://github.com/abraxas-labs/).
 
 ## Submission Guidelines
 
@@ -102,9 +102,9 @@ Your submission must contain the following details:
 
 ### Rewards
 
-For legal reasons, rewards can only be obtained through the Bug Bounty Platform. Rewards are distributed at the discretion of Abraxas. Reporting a finding does not mean you have a right to bug bounty bonuses.
+For legal reasons, rewards can only be obtained through the Bug Bounty Platform. Rewards are distributed at the discretion of Abraxas. Reporting a finding does not mean you have a right to receive bug bounty bonuses.
 
-The Bug Bounty Reward Grid for this program can be found in the [Bug Bounty Policy](./SECURITY.md#reward-grid).
+The Bug Bounty reward grid for this program can be found in the [Bug Bounty Policy](./SECURITY.md#reward-grid).
 
 ## Responsible Vulnerability Disclosure
 
